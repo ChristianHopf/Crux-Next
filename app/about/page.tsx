@@ -1,10 +1,11 @@
 import Link from "next/link";
 import React from "react";
 import Question from "./Question";
+import Footer from "../components/home/Footer";
 
 function About() {
   return (
-    <div className="flex flex-col w-full min-h-screen p-8 md:p-20 gap-12">
+    <div className="flex flex-col w-full min-h-screen justify-between p-8 md:p-12 gap-12">
       <main className="flex w-full flex-col gap-[32px] items-center">
         {/* FAQ */}
         <div className="flex flex-col lg:flex-row w-full max-w-5xl gap-4 lg:gap-8">
@@ -33,6 +34,9 @@ function About() {
                 purposes:
               </p>
               <ul className="list-disc pl-6 space-y-2">
+              <li className="text-base md:text-lg">
+                  <span className="font-medium">Glad: </span>Implementation of Khronos Group&apos;s OpenGL graphics API
+                </li>
                 <li className="md:text-lg">
                   <span className="font-medium">Assimp:</span> Supports
                   importing and processing 3D models of various file formats
@@ -57,6 +61,9 @@ function About() {
                   <span className="font-medium">cJSON: </span>Process JSON files
                 </li>
                 <li className="text-base md:text-lg">
+                  <span className="font-medium">stb_image: </span>Process image files
+                </li>
+                <li className="text-base md:text-lg">
                   <span className="font-medium">Unity: </span>Unit testing
                 </li>
               </ul>
@@ -79,7 +86,7 @@ function About() {
           </div>
         </div>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center"></footer>
+      <Footer />
     </div>
   );
 }

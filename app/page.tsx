@@ -1,3 +1,4 @@
+import Footer from "./components/home/Footer";
 import HeroHome from "./components/home/HeroHome";
 import Roadmap from "./components/home/Roadmap";
 
@@ -36,11 +37,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <span className="text-[#2348AF] font-semibold">
-          © Dinobytes Studio 2025
-        </span>
-      </footer>
+      <Footer />
     </div>
   );
 }
