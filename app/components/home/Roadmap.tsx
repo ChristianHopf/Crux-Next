@@ -46,11 +46,17 @@ function Roadmap() {
             support for Windows machines.
           </li>
           <li className="text-base md:text-lg">
-            <span className="font-medium">
-              Documentation, Licensing, and Tutorials:{" "}
-            </span>
+            <span className="font-medium">Documentation: </span>
             Write robust documentation, ensure compliance with third-party
             licenses, and create a tutorial for building a simple game.
+          </li>
+          <li className="text-base md:text-lg">
+            <span className="font-medium">Licensing: </span>
+            Ensure compliance with third-party licenses
+          </li>
+          <li className="text-base md:text-lg">
+            <span className="font-medium">Tutorials: </span>
+            Create a tutorial for building a simple game.
           </li>
           <li className="text-base md:text-lg">
             <span className="font-medium">Testing: </span>Write a robust test

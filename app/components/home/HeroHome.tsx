@@ -8,12 +8,13 @@ function HeroHome() {
           GAME ENGINE
         </h1>
         <p className="md:text-lg">
-          Built by Dinobytes Studio, Crux is a Linux-native, free and open-source game engine
-          written in C that provides a suite of low-level APIs for developing
-          lightweight, high-performance games in 3D environments.
+          Built by Dinobytes Studio, Crux is a Linux-native, free and
+          open-source game engine written in C that provides a suite of
+          low-level APIs for developing lightweight, high-performance games in
+          3D environments.
         </p>
       </div>
-      <div className="lg:w-1/2 flex flex-col items-center justify-center">
+      <div className="lg:w-1/2 flex flex-col items-center text-center justify-center">
         <iframe
           className="w-full aspect-video"
           src="https://www.youtube.com/embed/xmT5EHLfxNg"
@@ -28,24 +29,5 @@ function HeroHome() {
     </div>
   );
 }
-// function HeroHome() {
-//   return (
-//     <div className="flex flex-col lg:flex-row w-full max-w-4xl">
-//       <div className="space-y-2">
-//         <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold">
-//           CRUX GAME ENGINE
-//         </h1>
-//         <span>
-//           Built by Dinobytes Studio, Crux is a free and open source game engine
-//           written in C that provides a suite of low-level APIs for developing
-//           games in 3D environments.
-//         </span>
-//       </div>
-//       <div className="bg-stone-400">
-//         <span>Demo video coming soon!</span>
-//       </div>
-//     </div>
-//   );
-// }
 
 export default HeroHome;

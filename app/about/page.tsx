@@ -34,37 +34,40 @@ function About() {
                 purposes:
               </p>
               <ul className="list-disc pl-6 space-y-2">
-              <li className="text-base md:text-lg">
-                  <span className="font-medium">Glad: </span>Implementation of Khronos Group&apos;s OpenGL graphics API
+                <li className="text-base md:text-lg">
+                  <span className="font-medium">Glad: </span>Implementation of
+                  Khronos Group&apos;s OpenGL graphics API.
                 </li>
                 <li className="md:text-lg">
-                  <span className="font-medium">Assimp:</span> Supports
-                  importing and processing 3D models of various file formats
+                  <span className="font-medium">Assimp:</span> Process 3D models
+                  of various file formats.
                 </li>
                 <li className="text-base md:text-lg">
-                  <span className="font-medium">FreeType:</span> Font loading
-                  library for in-game text and UI elements.
+                  <span className="font-medium">FreeType:</span> Process fonts
+                  for in-game text and UI elements.
                 </li>
                 <li className="text-base md:text-lg">
                   <span className="font-medium">OpenAL:</span> Immersive spatial
-                  audio playback
+                  audio playback.
                 </li>
                 <li className="text-base md:text-lg">
-                  <span className="font-medium">libsndfile:</span> Loading audio
-                  files
+                  <span className="font-medium">libsndfile:</span> Process audio
+                  files.
                 </li>
                 <li className="text-base md:text-lg">
                   <span className="font-medium">Clay:</span> Immediate mode UI
-                  layouting library
+                  layouting library.
                 </li>
                 <li className="text-base md:text-lg">
-                  <span className="font-medium">cJSON: </span>Process JSON files
+                  <span className="font-medium">cJSON: </span>Process JSON
+                  files.
                 </li>
                 <li className="text-base md:text-lg">
-                  <span className="font-medium">stb_image: </span>Process image files
+                  <span className="font-medium">stb_image: </span>Process image
+                  files.
                 </li>
                 <li className="text-base md:text-lg">
-                  <span className="font-medium">Unity: </span>Unit testing
+                  <span className="font-medium">Unity: </span>Unit testing.
                 </li>
               </ul>
             </Question>
