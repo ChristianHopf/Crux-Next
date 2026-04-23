@@ -20,9 +20,9 @@ function About() {
               </span>
             </InfoBlock>
 
-            <InfoBlock title="Trigger Entities">
+            <InfoBlock title="Trigger Components">
               <span className="md:text-lg">
-                The TriggerEntity Entity type is used to trigger events on
+                A TriggerComponent gives an Entity the ability to trigger events on
                 interactions such as physics collisions. This will be used to do
                 things like exit levels, autosave, change music, and more.
               </span>
