@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Roadmap() {
@@ -34,8 +35,16 @@ function Roadmap() {
           </li>
           <li className="text-base md:text-lg">
             <span className="font-medium">UI:</span> Display in-game popups, HUD
-            elements, menus, and more with Clay&apos;s blazingly fast
-            immediate-mode UI.
+            elements, menus, and more with{" "}
+            <Link
+              href={"https://github.com/ChristianHopf/Crux"}
+              rel="noopener noreferrer"
+              target="_blank"
+              className="text-blue-700 hover:text-blue-500 transition-colors nav-underline"
+            >
+              Clay
+            </Link>
+            &apos;s blazingly fast immediate-mode UI.
           </li>
           <li className="text-base md:text-lg">
             <span className="font-medium">Multiplayer: </span>Support for
@@ -47,8 +56,7 @@ function Roadmap() {
           </li>
           <li className="text-base md:text-lg">
             <span className="font-medium">Documentation: </span>
-            Write robust documentation, ensure compliance with third-party
-            licenses, and create a tutorial for building a simple game.
+            Write comprehensive documentation.
           </li>
           <li className="text-base md:text-lg">
             <span className="font-medium">Licensing: </span>
