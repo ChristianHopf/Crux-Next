@@ -83,7 +83,7 @@ function About() {
                 >
                   GitHub repository
                 </Link>
-                , or join the Discord server (coming soon).
+                .
               </p>
             </Question>
           </div>

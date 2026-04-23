@@ -11,11 +11,23 @@ export default function Navbar() {
           </span>
         </Link>
         <span className="flex items-center gap-2 md:gap-6">
+        <Link
+            href={"/"}
+            className="text-white hover:text-stone-300 text-md md:text-xl xl:text-2xl px-2 py-1 transition-colors nav-underline"
+          >
+            <p>Home</p>
+          </Link>
           <Link
             href={"/about"}
             className="text-white hover:text-stone-300 text-md md:text-xl xl:text-2xl px-2 py-1 transition-colors nav-underline"
           >
             <p>About</p>
+          </Link>
+          <Link
+            href={"/devlog"}
+            className="text-white hover:text-stone-300 text-md md:text-xl xl:text-2xl px-2 py-1 transition-colors nav-underline"
+          >
+            <p>Devlog</p>
           </Link>
           <Link
             href={"https://github.com/ChristianHopf/Crux"}
